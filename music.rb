@@ -32,4 +32,5 @@ end
 # This method should accept three arguments, the library hash, the artist, and the song.
 def add_song_and_artist(hash, artist, song)
   hash[:artist] = song
+  puts hash
 end 
