@@ -1,6 +1,10 @@
 
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
+music = {
+  :Ariana_Grande => "No Tear Left to Cry",
+  :Bruno_Mars => "Versace on the Floor",
+}
 def list_artists(hash)
   hash.each_key {
     |artist|
